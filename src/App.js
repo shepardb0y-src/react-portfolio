@@ -1,7 +1,10 @@
-App = () => {
+import Nav from "./components/Nav"
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
+    <div>
+      <Nav/>
+
     </div>
   );
 };
